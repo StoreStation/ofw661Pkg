@@ -1,0 +1,16 @@
+{
+  "pkgver": 1,
+  "type": "app",
+  "name": "OFW 6.61",
+  "author": "koutsie",
+  "description": "Official PSP Firmware 6.61 for PSP\nDirectly from Sony's servers\n! Not compatible with PSP GO !",
+  "tag": "cfw",
+  "version": "6.61",
+    "download": {
+        "remote": "sonypsp:image/us/2014_1212_6be8878f475ac5b1a499b95ab2f7d301/EBOOT.PBP",
+        "compressed": false,
+        "targets": [
+            { "file": "EBOOT.PBP", "target": "ms0:/661.PBP" }
+        ]
+    }
+}
